@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            
+                <div class="logo">
+                    <a href="#"><img src="img/Logo.png" alt="site-logo"></a>
+                </div>
+                <div class="menu-bars">
+                    <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                </div>
+                
+                <div id="myNav" class="overlay">
+                    
+
+                    <div class="overlay-content container">
+                        
+                        <div class="logo">
+                            <a href="#"><img src="img/Logo.png" alt="site-logo"></a>
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <div class="title title-hidden">
+                            <h1>A <span>NOT SO</span><br>
+                                DIFFERENT<br>
+                                FOLIO
+                            </h1>
+                        </div>
+
+                        <div class="menu">
+                            <a href="#">
+                                About
+                                <div class="divider"></div>
+                            </a>
+                            <a href="#">
+                                Work
+                                <div class="divider"></div>
+                            </a>
+                            <a href="#">
+                                Blog
+                                <div class="divider"></div>
+                            </a>
+                            <a href="#">
+                                Contact
+                                <div class="divider"></div>
+                            </a>
+                        </div>
+
+                        <div class="social-bar">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter"><a href="#"></a></i>
+                            <i class="fab fa-behance"></i>
+                            <i class="fab fa-twitter"><a href="#"></a></i>
+                            <i class="fab fa-twitter"><a href="#"></a></i>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            <div class="title">
+                <h1>A <span>NOT SO</span><br>
+                    DIFFERENT<br>
+                    FOLIO
+                </h1>
+            </div>
+
+            <div class="social-bar">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container intro-container">
+                <div class="title">
+                    <h2>HEY!</h2>
+                </div>
+                <div class="intro-block">
+                    <figure>
+                        <img src="img/guy.beard.intro.jpg" alt="beard guy">
+                    </figure>
+                </div>
+                <div class="intro-block">
+                    <p>Voluptate nostrud irure excepteur minim exercitation aliquip qui adipisicing.
+                       Duis nisi laboris sint aliquip excepteur deserunt dolor.
+                    Cillum minim ad qui aliquip labore quis esse culpa amet eu dolore eiusmod consequat
+                     consectetur. Dolor fugiat enim mollit anim irure labore sunt irure proident 
+                     adipisicing dolor duis dolor. In velit reprehenderit laboris
+                      Lorem nulla eiusmod consectetur in laboris et nisi culpa
+                       consequat esse.
+                        Reprehenderit duis veniam
+                         nulla enim amet.<span id="dots"></span><button onclick="readMore()" id="myBtn">+</button><span id="more">Cupidatat qui officia dolor nostrud in velit eu commodo ipsum consequat. Commodo nostrud voluptate in laboris. Ullamco ullamco pariatur labore dolore incididunt ipsum exercitation ad exercitation ullamco officia. Minim veniam nisi anim consequat reprehenderit. Ut labore cillum aliquip est do aliquip reprehenderit deserunt irure irure fugiat anim duis. Minim est minim eu sit et ex.</span></p>                    
+                </div>
+            </div>           
+        </section>
+        <section class="check-this">
+            <div class="check-this-container container">
+                <div class="title"><h2>Check<br> this out!</h2></div>
+                <div class="check-this-block">
+                    <figure>
+                        <img src="img/portrait-1.jpg" alt="1">
+                    </figure>
+                </div>
+                <div class="check-this-block">
+                    <figure>
+                        <img src="img/portrait-4.jpg" alt="2">
+                    </figure>
+                </div>
+                <div class="check-this-block">
+                    <figure>
+                        <img src="img/portrait-3.jpg" alt="3">
+                    </figure>
+                </div>
+                <div class="check-this-block">
+                    <figure>
+                        <img src="img/portrait-2.jpg" alt="4">
+                    </figure>
+                </div>
+                <div class="check-this-block">
+                    <figure>
+                        <img src="img/portrait-5.jpg" alt="5">
+                    </figure>
+                </div>
+
+                <input type="checkbox" class="read-more-state" id="post-1" />
+                <label for="post-1" class="read-more-trigger"></label>
+                <div class="check-this-block read-more-target">
+                    <figure>
+                        <img src="img/portrait-1.jpg" alt="1">
+                    </figure>
+                </div>
+                <div class="check-this-block read-more-target">
+                    <figure>
+                        <img src="img/portrait-2.jpg" alt="1">
+                    </figure>
+                </div>
+                <div class="check-this-block read-more-target">
+                    <figure>
+                        <img src="img/portrait-3.jpg" alt="1">
+                    </figure>
+                </div>     
+        </section>
+        <section class="clients">
+            <div class="clients-container container">
+                <div class="title"><h2>Our<br> Clients</h2></div>
+                <div class="clients-block">
+                    <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="clients-block">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="clients-block">
+                    <i class="fab fa-apple"></i>
+                </div>
+                <div class="clients-block">
+                    <i class="fab fa-behance"></i>
+                </div>
+                <div class="clients-block">
+                    <h3>Evernote</h3>
+                </div>
+                <div class="clients-block">
+                    <h3>Google</h3>
+                </div>
+            </div>            
+        </section>
+        <section class="the-blog">
+            <div class="container the-blog-container">
+                <div class="title"><h2>The<br> Blog</h2></div>
+                <div class="the-blog-block">
+                    <figure>
+                        <img src="img/machine.jpg" alt="printer">
+                    </figure>
+                    <div class="blog-block-txt">
+                        <hgroup class="title">
+                            <p>12 february 2018</p>
+                            <h3>AINT NO REST FOR A WEEKEND</h3>
+                        </hgroup>
+                        <p>Est anim est pariatur non ad. Voluptate incididunt laborum aute commodo anim nulla. Ex proident est laborum eu magna occaecat aliqua duis culpa excepteur aliqua officia. Cupidatat elit magna in culpa dolor. Exercitation voluptate voluptate quis consequat do dolor elit id sit quis consectetur dolor velit sunt.</p>
+                        <button class="btn">check more posts</button>
+                    </div>
+                </div>
+                <div class="the-blog-block">
+                        <figure>
+                            <img src="img/hollywood.jpg" alt="hw">
+                        </figure>
+                        <div class="blog-block-txt">
+                            <hgroup class="title">
+                                <p>12 february 2018</p>
+                                <h3>AINT NO REST FOR A WEEKEND</h3>
+                            </hgroup>
+                            <p>Est anim est pariatur non ad. Voluptate incididunt laborum aute commodo anim nulla. Ex proident est laborum eu magna occaecat aliqua duis culpa excepteur aliqua officia. Cupidatat elit magna in culpa dolor. Exercitation voluptate voluptate quis consequat do dolor elit id sit quis consectetur dolor velit sunt.</p>
+                            <button class="btn">check more posts</button>
+                        </div>
+                </div>
+
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                <label for="post-2" class="read-more-trigger"></label>
+
+                <div class="the-blog-block read-more-target">
+                    <figure>
+                        <img src="img/hollywood.jpg" alt="hw">
+                    </figure>
+                    <div class="blog-block-txt">
+                        <hgroup class="title">
+                            <p>12 february 2018</p>
+                            <h3>AINT NO REST FOR A WEEKEND</h3>
+                        </hgroup>
+                        <p>Est anim est pariatur non ad. Voluptate incididunt laborum aute commodo anim nulla. Ex proident est laborum eu magna occaecat aliqua duis culpa excepteur aliqua officia. Cupidatat elit magna in culpa dolor. Exercitation voluptate voluptate quis consequat do dolor elit id sit quis consectetur dolor velit sunt.</p>
+                        <button class="btn">check more posts</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="get-in-touch">
+            
+            <div class="get-in-touch-container container">
+                <div class="title"><h2>Get in<br> touch!</h2></div>
+                <div class="get-in-touch-block">
+                    <div class="address">
+                    <h3>Our Location</h3>
+                        123 Different Street<br>
+                        Lisbon, Portugal 1200 - 000<br>
+                        (+351) 123 456 789<br>
+                        Tiago Narciso<br>                    
+                    <button class="btn btn-contacts">say hello</button>
+                    </div>
+                    <div class="social-bar-contacts">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="get-in-touch-block">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5130.329494318631!2d27.53367148500841!3d53.8736909592274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sby!4v1534857427864" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container container">
+            <div class="logo">
+                <img src="img/Logo-footer.png" alt="logo">
+            </div>
+            <div class="copyright">
+                <p><a href="#">www.site.com</a></p>
+                <p>2018, Andrei Pakrouski</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
